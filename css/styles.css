@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.menulist {
+	padding: 20px;
+	overflow: hidden;
+	background: #fdd;
+}
+.menulist li {
+	display: block;
+	float: left;
+	margin-right: 20px;
+}
+.menulist a {
+	display: block;
+	padding: 10px;
+	height: 20px;
+	line-height: 20px;
+	color: #fff;
+	background: #977;
+	text-decoration: none;
+}
+.menulist .add {
+	float: right;
+}
+
+h1 {
+	margin: 30px 0;
+	font: 20px/40px Tahoma, sans-serif;
+	text-transform: uppercase;
+}
+
+.list {
+	list-style-type: none;
+}
+.list li {
+	display: block;
+	margin: 30px 0;
+	font-family: Tahoma;
+}
